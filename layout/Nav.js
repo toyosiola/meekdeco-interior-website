@@ -1,7 +1,7 @@
 import Image from "next/image";
 import { useState } from "react";
-import { CartIcon, HeartIcon, SearchIcon, UserIcon } from "../../assets/icons";
-import { navLinks } from "../../data/data";
+import { CartIcon, HeartIcon, SearchIcon, UserIcon } from "../assets/icons";
+import { navLinks } from "../data/data";
 import NavLink from "./NavLink";
 
 function Nav() {
@@ -60,15 +60,15 @@ function Nav() {
         {/* hamburger buttton */}
         <button
           id="menu-btn"
-          class={`hamburger block mt-auto focus:outline-none lg:hidden ${
+          className={`hamburger block mt-auto focus:outline-none lg:hidden ${
             isMenuOpen ? "open" : ""
           }`}
           type="button"
           onClick={() => setIsMenuOpen(!isMenuOpen)}
         >
-          <span class="hamburger-top"></span>
-          <span class="hamburger-middle"></span>
-          <span class="hamburger-bottom"></span>
+          <span className="hamburger-top"></span>
+          <span className="hamburger-middle"></span>
+          <span className="hamburger-bottom"></span>
         </button>
       </div>
     </nav>
