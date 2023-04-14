@@ -20,7 +20,7 @@
   }
 
   h4 {
-    @apply text-2xl;
+    @apply text-xl lg:text-2xl;
   }
 }
 
@@ -50,7 +50,7 @@
 }
 
 .open.hamburger {
-  @apply fixed right-6 top-10;
+  @apply fixed right-6 top-10 z-20;
 }
 
 .open .hamburger-top {
@@ -63,10 +63,6 @@
 
 .open .hamburger-middle {
   @apply hidden;
-}
-
-.open.menu-bar {
-  @apply h-[calc(100vh-7rem)] fixed;
 }
 
 @tailwind utilities;

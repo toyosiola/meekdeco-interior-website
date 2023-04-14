@@ -1,10 +1,10 @@
 import Image from "next/image";
 import Link from "next/link";
 
-function FooterLink({ title }) {
+function FooterLink({ href = "#", title }) {
   return (
     <li className="mb-4 text-base">
-      <Link href="#">{title}</Link>
+      <Link href={href}>{title}</Link>
     </li>
   );
 }
@@ -17,26 +17,28 @@ function Footer() {
         <div className="flex flex-col-reverse items-center justify-between gap-8 md:flex-row md:items-start">
           {/* logo container */}
           <div className="self-start">
-            <Image
-              src="/images/logo-white.png"
-              width={173}
-              height={57}
-              alt="MeekDeco logo"
-            />
+            <Link href="/">
+              <Image
+                src="/images/logo-white.png"
+                width={173}
+                height={57}
+                alt="MeekDeco logo"
+              />
+            </Link>
           </div>
 
           <div className="flex flex-col gap-8 md:flex-row lg:gap-24 mb-8">
             <ul>
               <h4 className=" mb-5 text-xl text-white">Company</h4>
-              <FooterLink title="About us" />
-              <FooterLink title="Product" />
+              <FooterLink href="/about" title="About us" />
+              <FooterLink href="/product" title="Product" />
               <FooterLink title="Services" />
               <FooterLink title="Terms of services" />
               <FooterLink title="Privacy Policy" />
             </ul>
             <ul>
               <h4 className=" mb-5 text-xl text-white">Contact</h4>
-              <FooterLink title="Contact us" />
+              <FooterLink href="/contact" title="Contact us" />
               <FooterLink title="Help center" />
             </ul>
           </div>
