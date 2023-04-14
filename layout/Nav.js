@@ -87,9 +87,10 @@ function Nav() {
           <span className="hamburger-middle"></span>
           <span className="hamburger-bottom"></span>
         </button>
+
         {/* SIDEBAR */}
         <div
-          class={`inset-0 bg-gray-50 mx-auto z-10 overflow-hidden duration-300 ${
+          className={`inset-0 bg-gray-50 mx-auto z-10 overflow-hidden duration-300 ${
             isMenuOpen ? "fixed translate-y-0" : "absolute -translate-y-full"
           } lg:hidden`}
         >
