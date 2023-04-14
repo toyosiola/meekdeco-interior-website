@@ -1,7 +1,8 @@
 const navLinks = [
-  { href: "/", title: "Product" },
-  { href: "/", title: "About us" },
-  { href: "/", title: "Contact us" },
+  { href: "/", title: "Home" },
+  { href: "/product", title: "Product" },
+  { href: "/about", title: "About us" },
+  { href: "/contact", title: "Contact us" },
 ];
 
 const benefits = [
@@ -31,6 +32,7 @@ const products = [
   {
     id: 0,
     name: "Armchair Wine",
+    maker: "Lubban",
     tag: "best selling",
     price: "#55, 000",
     link: "/images/products/Rectangle-7-0.png",

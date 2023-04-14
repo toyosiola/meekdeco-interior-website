@@ -17,7 +17,12 @@ function Footer() {
         <div className="flex flex-col-reverse items-center justify-between gap-8 md:flex-row md:items-start">
           {/* logo container */}
           <div className="self-start">
-            <Image src="/images/logo-white.png" width={173} height={57} />
+            <Image
+              src="/images/logo-white.png"
+              width={173}
+              height={57}
+              alt="MeekDeco logo"
+            />
           </div>
 
           <div className="flex flex-col gap-8 md:flex-row lg:gap-24 mb-8">
@@ -49,7 +54,7 @@ function Footer() {
               className="w-full p-4 text-xs flex-grow text-[#8c8c8d] focus:outline-none xs:w-auto"
               placeholder="Enter your email address"
             />
-            <button className="block mx-auto text-white text-lg py-3 px-6 bg-primary rounded-md xs:mx-0">
+            <button className="btn block mx-auto text-lg py-3 px-6 rounded-md xs:mx-0">
               Subscribe
             </button>
           </form>

@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import { useState } from "react";
 import { CartIcon, HeartIcon, SearchIcon, UserIcon } from "../assets/icons";
 import { navLinks } from "../data/data";
@@ -13,12 +14,14 @@ function Nav() {
       <div className="max-w-screen-2xl mx-auto px-6 flex justify-between xl:px-15">
         {/* item 1 - colored logo */}
         <div className="my-1">
-          <Image
-            src="/images/logo-colored.png"
-            alt="MeekDeco"
-            width={173}
-            height={57}
-          />
+          <Link href="/">
+            <Image
+              src="/images/logo-colored.png"
+              alt="MeekDeco logo"
+              width={173}
+              height={57}
+            />
+          </Link>
         </div>
 
         {/* item 2 - nav links */}

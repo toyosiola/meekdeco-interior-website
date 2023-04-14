@@ -22,7 +22,11 @@ module.exports = {
         manrope: ["'Manrope'", "sans-serif"],
       },
       spacing: { 15: "3.75rem" },
-      backgroundImage: () => ({ hero: "url('/images/home/hero-img.png')" }),
+      backgroundImage: () => ({
+        hero: "url('/images/home/hero-img.png')",
+        summerSales_1: "url('/images/about/Rectangle-8.png')",
+        summerSales_2: "url('/images/about/Rectangle-9.png')",
+      }),
     },
   },
   plugins: [],

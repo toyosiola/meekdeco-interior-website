@@ -14,7 +14,7 @@ function Home() {
           <h1 className="text-5xl leading-[1.36] text-white font-semibold max-w-xl text-center lg:text-7xl">
             Best furniture to your doorstep
           </h1>
-          <button className="block mx-auto bg-primary text-white px-16 py-3 text-lg focus:outline-none rounded-lg hover:bg-fade hover:text-secondary">
+          <button className="btn block mx-auto px-16 py-3 text-lg focus:outline-none rounded-lg">
             Explore
           </button>
         </div>
@@ -92,6 +92,7 @@ function Home() {
                   width={428}
                   height={440}
                   className="relative"
+                  alt="Jaybee"
                 />
               </div>
               {/* Name */}

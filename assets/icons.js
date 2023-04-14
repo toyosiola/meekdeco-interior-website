@@ -111,3 +111,49 @@ export function LeftQuoteIcon() {
     </svg>
   );
 }
+
+export function ChevronRightIcon() {
+  return (
+    <svg
+      width="17"
+      height="16"
+      viewBox="0 0 17 16"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <g clip-path="url(#clip0_471_179)">
+        <path
+          d="M4.82666 2.57998L6.00666 1.39998L12.6067 7.99998L6.00666 14.6L4.82666 13.42L10.2467 7.99998L4.82666 2.57998Z"
+          fill="currentColor"
+        />
+      </g>
+      <defs>
+        <clipPath id="clip0_471_179">
+          <rect
+            width="16"
+            height="16"
+            fill="white"
+            transform="matrix(1 0 0 -1 0.5 16)"
+          />
+        </clipPath>
+      </defs>
+    </svg>
+  );
+}
+
+export function ChevronLeftIcon() {
+  return (
+    <svg
+      width="9"
+      height="14"
+      viewBox="0 0 9 14"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M8.67334 1.57998L7.49334 0.399976L0.89334 6.99998L7.49334 13.6L8.67334 12.42L3.25334 6.99998L8.67334 1.57998Z"
+        fill="currentColor"
+      />
+    </svg>
+  );
+}
