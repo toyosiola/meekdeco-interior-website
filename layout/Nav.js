@@ -41,7 +41,7 @@ function Nav() {
         {/* item 2 - nav links */}
         <ul className="hidden gap-4 lg:flex ">
           {navLinks.map((link, index) => {
-            return <NavLink key={index} {...link} index={index} />;
+            return <NavLink key={index} {...link} />;
           })}
         </ul>
 
