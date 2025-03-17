@@ -94,7 +94,7 @@ function Nav() {
             isMenuOpen ? "fixed translate-y-0" : "absolute -translate-y-full"
           } lg:hidden`}
         >
-          <ul class="mt-20">
+          <ul className="mt-20">
             {navLinks.map((link, index) => {
               return <SideBarLink key={index} {...link} index={index} />;
             })}
