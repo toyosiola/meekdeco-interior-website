@@ -1,5 +1,5 @@
 import { products } from "../data/data";
-import SingleProduct from "../components/SIngleProduct";
+import SingleProduct from "../components/SingleProduct";
 import { ChevronLeftIcon, ChevronRightIcon } from "../assets/icons";
 
 function Product() {

@@ -2,7 +2,7 @@ import Image from "next/image";
 import { LeftQuoteIcon, RightQuoteIcon } from "../assets/icons";
 import Achievement from "../components/Achievement";
 import Benefit from "../components/Benefit";
-import SingleProduct from "../components/SIngleProduct";
+import SingleProduct from "../components/SingleProduct";
 import { benefits, products } from "../data/data";
 
 function Home() {
